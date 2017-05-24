@@ -9,11 +9,11 @@ import {OneComponent} from "./one.component";
         path: 'one',
         component: OneComponent
       },
-      {
-        path: '**',
-        redirectTo: '/one',
-        pathMatch: 'full'
-      }
+      // {
+      //   path: '**',
+      //   redirectTo: '/one',
+      //   pathMatch: 'full'
+      // }
     ])
   ],
   exports: [
