@@ -10,6 +10,9 @@ import {TwoComponent} from "./two.component";
   ],
   declarations: [
     TwoComponent
+  ],
+  exports: [
+    TwoComponent
   ]
 })
 export class TwoModule { }
